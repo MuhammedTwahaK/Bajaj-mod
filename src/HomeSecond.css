@@ -1,0 +1,105 @@
+.InsuranceBazarDivOne {
+  background-color: white;
+  width: 530px;
+  height: 13.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+}
+.InsuranceBazarDivTwo {
+  background-color: white;
+  width: 530px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+}
+.InsuranceBazarDivMainOne {
+  display: flex;
+  width: 1080px;
+  justify-content: space-between;
+}
+.InsuranceBazarDivMain {
+  /* background-color: brown; */
+  width: 1110px;
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+}
+.InsuranceBazarAndText {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+  margin-top: 0.5rem;
+  height: 3rem;
+  align-items: center;
+}
+.InsuranceBazaarmaindiva {
+  /* background-color: darkkhaki; */
+  display: flex;
+  justify-content: center;
+}
+.TextOfInsuranvcee {
+  font-size: 18px;
+  color: #002a53;
+}
+.ViewAllTExt {
+  color: orangered;
+}
+.IconSIzEANDWIdth {
+  width: 3rem;
+}
+.COLOrforHEtalthtext {
+  color: #002a53;
+}
+.COLOrforHEtalthtextTT {
+  color: #002a53;
+}
+.DivBETWEentextandicons {
+  width: 5rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DivBETWEentextandiconsB {
+  width: 5rem;
+  height: 6rem;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DivBETWEentextandiconsS {
+  width: 5rem;
+  height: 8rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DivBETWEentextandiconsSS {
+  width: 5rem;
+  height: 10rem;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DivBETWEentextandiconss {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.FoeALigingitemsset {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 8rem;
+  justify-content: space-evenly;
+}

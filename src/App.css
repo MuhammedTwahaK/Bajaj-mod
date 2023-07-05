@@ -1,38 +1,569 @@
-.App {
-  text-align: center;
+.Darkblue {
+  background-color: #002a53;
+  border: none;
+}
+.CloseBt {
+  background-color: rgb(165, 164, 164);
+  border-radius: 100px;
+  color: white;
+}
+.CanvaBody {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  justify-content: space-between;
+}
+.NavBgColoRset {
+  background-color: #002a53;
+  height: 3.5rem;
+}
+.Hamburger {
+  width: 2rem;
+}
+.ColorTowhite {
+  color: #002a53;
+}
+.MyAccount {
+  width: 4rem;
+}
+.DivForMyAC {
+  background-color: #002a53;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 23rem;
+  border-radius: 15px;
+  height: 6.5rem;
+}
+.cntinAc {
+  font-size: 11px;
+  font-weight: 500;
+  color: rgba(165, 164, 164, 0.562);
+}
+#cntinAc {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.arrowicon {
+  width: 0.75rem;
+  opacity: 50%;
+}
+.ArrowBg {
+  background-color: rgba(165, 164, 164, 0.562);
+  padding: 0.25rem;
+  height: 25%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MyACandCNT {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.btnBorderNone {
+  border: none;
+}
+.DownArrow {
+  width: 1rem;
+  height: 1rem;
+}
+.LogoInMenuBAr {
+  width: 2.5rem;
+}
+.MenuBArTitleandCNT {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.MenuBArTitleandCNTone {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.OURCMP {
+  font-weight: bold;
+}
+.OURCMPCNT {
+  font-size: 10px;
+  color: gray;
+}
+.OURCMPCNT1 {
+  font-size: 10px;
+  color: gray;
+  width: 13.5rem;
+}
+.AllMenuBTN {
+  display: flex;
+  width: 22rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.AllMenuBTN1 {
+  width: 22rem;
+}
+.DRBORder {
+  border: none;
+}
+.DropDownMenucnt {
+  font-weight: 650;
+  font-size: 15px;
+  /* border-bottom: .01px solid rgba(128, 128, 128, 0.575); */
+}
+.DropDownMenucnt:hover {
+  background-color: white;
+}
+.Hrlinindropmenu {
+  margin-left: 0.75rem;
+}
+.AlignmentofImgandCNT {
+  display: flex;
+  width: 15rem;
+  justify-content: space-between;
+}
+.AlignmentofImgandCNTone {
+  display: flex;
+  width: 19.3rem;
+  justify-content: space-between;
+}
+.ForMenuBArBox {
+  margin-top: 1rem;
+  width: 23rem;
+}
+.CopyRight {
+  font-size: 9.5px;
+  color: gray;
+}
+.CopyrightOne {
+  width: 21.75em;
+  align-items: center;
+}
+.CopyrightTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Logo {
+  width: 5rem;
+}
+.DivOfLogo {
+  width: 6rem;
+  height: 1.75rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.411);
+  display: flex;
+  align-items: center;
+}
+.SearchBarBg {
+  background-color: white;
+  border-radius: 5px;
+  width: 42rem;
+  display: flex;
+  align-items: center;
+}
+.Adivforborder {
+  width: 43rem;
+  border-right: 1px solid rgba(128, 128, 128, 0.418);
+}
+.InputSearch {
+  width: 39rem;
+  border-radius: 5px;
+  border: none;
+  height: 2.5rem;
+  padding-left: 1rem;
+}
+.SearchiconLW {
+  width: 1.75rem;
+}
+.SearchbarDivIcoonn {
+  width: 2.5rem;
+  display: flex;
+  justify-content: end;
+  border-left: 1px solid rgba(128, 128, 128, 0.404);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.EMIdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #002a53;
+  width: 5rem;
+  height: 3.5rem;
+}
+.EMIdiv:hover {
+  background-color: #001224;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 5rem;
+}
+.EMIicon {
+  width: 2rem;
+}
+.Carticon {
+  width: 1.75rem;
+}
+.EMItext {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+.Alerttext {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+.ForwdhgClour {
+  background-color: #002a53;
+  height: 100vh;
+  width: 25rem;
+  border: none;
+  border-radius: 0%;
+}
+.ForwdhgClourOne {
+  height: 38vh;
+  width: 17rem;
+  border: none;
+  border-radius: 0px;
+  background-color: #001224;
+}
+.ForwdhgClourTwo {
+  background-color: #001224;
+  height: 16rem;
+  width: 17rem;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+.BtnColorForNotification {
+  color: white;
+  border: none;
+}
+.BtnColorForNotification:hover {
+  color: white;
+}
+.NotificationBTN {
+  display: flex;
+  flex-direction: column;
+}
+.Notificationicon {
+  width: 1.35rem;
+}
+.AlignmentofNotification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Hovericondiv {
+  display: flex;
+  background-color: #002a53;
+  height: 3.5rem;
+}
+.DropDownalertBTN {
+  height: 3.5rem;
+}
+.DropDownalertBTN:hover {
+  background-color: #001224;
+  border-radius: 0%;
+}
+.DropArrowdownWD {
+  width: 0.65rem;
+}
+.NotificationNOn {
+  font: 12px;
+  color: white;
+  font-weight: bold;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.NotificationNOn:hover {
+  color: white;
+  background-color: #002a53;
+}
+.AllMenuBar {
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  align-items: center;
+}
+.SignInColor {
+  color: white;
+  font-weight: 600;
+}
+.SignBG {
+  background: rgb(255, 103, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 103, 0, 1) 0%,
+    rgba(255, 132, 0, 1) 100%
+  );
+  width: 13rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+}
+.SignBG:hover {
+  background: rgb(255, 132, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 132, 0, 1) 0%,
+    rgba(255, 103, 0, 1) 100%
+  );
+}
+.ForDecaration {
+  text-decoration: none;
+}
+.DarkBlueBG {
+  background-color: #001224;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.ViewCNT {
+  text-decoration: none;
+  color: white;
+  background-color: #002a53;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.ViewCNT:hover {
+  color: white;
+  background-color: #002a53;
+}
+.ViewCNTT {
+  text-decoration: none;
+  color: white;
+  background-color: #002a53;
+  font-weight: 600;
+  height: 10vh;
+  border-radius: 0 0 10px 10px;
+}
+.ViewCNTT:hover {
+  color: white;
+  background-color: #002a53;
+}
+.MyAcountDeatilsDiv {
+  border-radius: 0 0 10px 10px;
+  background-color: #002a53;
+  padding-top: 1rem;
+}
+.PartnerIconThree {
+  width: 2rem;
+}
+.TextForIconPartners {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.iconofpartnerwithText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 5rem;
+  height: 6rem;
+  justify-content: space-between;
+}
+.iconofpartnerwithTextONE {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 5rem;
+  height: 4.5rem;
+  justify-content: space-between;
+}
+.BTNBgForpartnerIcon {
+  background-color: #001224;
+  border: none;
+  border-radius: 0 0 10px 10px;
+}
+.ThreeIconOfpartnersAlighnFlex {
+  display: flex;
+  width: 16.2rem;
+  justify-content: space-between;
+}
+.ThreeIconOfpartnersAlighnFlexColume {
+  display: flex;
+  width: 10.5rem;
+  justify-content: space-between;
+}
+.finalFIVEpartnersDiv {
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  width: 100%;
+  height: 80vh;
+  background-color: #00295300;
+  text-align: center;
+  padding-top: 4em;
+}
+.main-menu {
+  text-align: left;
+  display: inline-block;
+  background-color: #fff;
+}
+.main-menu a,
+.main-menu a:hover {
+  text-decoration: none;
+}
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-menu li {
+  display: block;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+}
+.main-menu > li {
+  background-color: #002142;
+}
+.main-menu ul.sub-menu {
+  position: relative;
+  padding: 0;
+}
+
+.main-menu > li > a {
+  display: block;
+}
+
+.main-menu > li.menu-item-has-children {
+  padding-right: 1.5em;
+  overflow: hidden;
+}
+.main-menu > li.menu-item-has-children a {
+  padding: 0.75em 0.7em 0.7em 1.25em;
+}
+.main-menu > li.menu-item-has-children:hover a {
+  background-color: #002a53;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-menu > li.menu-item-has-children:after {
+  content: "";
+  position: absolute;
+  right: 0.5em;
+  top: 1.2em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #ffffff transparent transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-menu > li.menu-item-has-children:hover,
+.main-menu > li.menu-item-has-children:focus {
+  overflow: visible;
+  background-color: #002a53;
+}
+
+.main-menu ul.sub-menu {
+  width: 12em;
+  position: absolute;
+  top: 0;
+  z-index: 900;
+  padding-top: 3em;
+}
+
+.main-menu > li.menu-item-has-children:hover ul.sub-menu,
+.main-menu > li.menu-item-has-children:focus ul.sub-menu {
+  top: 100%;
+  padding-top: 0;
+}
+
+.main-menu ul.sub-menu li {
+  display: block;
+}
+.main-menu ul.sub-menu a {
+  display: block;
+}
+.main-menu ul.sub-menu a:hover {
+  background-color: #001224;
+}
+
+.LinkOFNAvtwo {
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+.TouchNavBArTwo {
+  display: flex;
+  height: 6.4rem;
+  width: 58rem;
+}
+.FeedBackDiv {
+  background-color: black;
+  width: 6.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2rem;
+  border-radius: 5px;
+}
+.DownLoadDiv {
+  background-color: black;
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2rem;
+  border-radius: 5px;
+}
+.Feedbacktext {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+.Feedbacktext:hover {
+  color: orangered;
+}
+.Downloadtext {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.Downloadtext:hover {
+  color: orangered;
+}
+
+.Feedbackimg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.DownloadAndFeedbackDiv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 18.5rem;
+  margin-top: 4.2rem;
+}
+.SecOndNAvBArAlignAllItemsfelx {
+  background-color: #002142;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.LINkDecatrationLine{
+  text-decoration: none;
 }

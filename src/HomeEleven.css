@@ -1,0 +1,72 @@
+.ElevenMAinDivONE {
+  /* background-color: #00b3cc; */
+  width: 400px;
+  height: 4rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Savdhan {
+  color: white;
+}
+.ElvenFinalOne {
+  background-color: #00b3cc;
+  width: 1080px;
+  height: 5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.FinalDIVELVEN {
+  width: 1110px;
+  height: 6rem;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.BLueBlue {
+  width: 1080px;
+  height: 11rem;
+  border-radius: 10px;
+  position: absolute;
+}
+.BlueANdDiv {
+  width: 1110px;
+  height: 12rem;
+  display: flex;
+  position: absolute;
+}
+.TExtNADICnContaimi {
+  position: relative;
+  height: 11rem;
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.hthreecalculators {
+  color: white;
+  font-size: 22px;
+}
+.Widthofcalculatortexticon {
+  width: 3.5rem;
+}
+.PersOnalLOAnAndITsDiv {
+  width: 5rem;
+  text-align: center;
+}
+.PersonalLOnanTExtx {
+  color: white;
+}
+.PersonalLoadAndItsDivWithCAlculator {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.BlueANdDiv {
+  width: 1080px;
+  display: flex;
+  align-items: end;
+  margin-left: 2rem;
+}
